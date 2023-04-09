@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.Optional;
 import java.util.UUID;
 
-@CrossOrigin("https://restaurant-web-client.vercel.app")
+// @CrossOrigin("https://restaurant-web-client.vercel.app")
 public interface AuthRepository extends JpaRepository<User, UUID> {
     boolean existsByPhoneNumber(String phoneNumber);
 
