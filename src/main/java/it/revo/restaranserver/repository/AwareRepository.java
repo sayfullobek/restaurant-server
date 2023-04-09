@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.UUID;
 
-@CrossOrigin("https://restaurant-web-client.vercel.app")
+// @CrossOrigin("https://restaurant-web-client.vercel.app")
 public interface AwareRepository extends JpaRepository<Aware, UUID> {
     boolean existsProductByNameUzEqualsIgnoreCaseAndNameEnEqualsIgnoreCaseAndNameRuEqualsIgnoreCase(String nameUz, String nameEn, String nameRu);
 
