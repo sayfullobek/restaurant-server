@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 
-@CrossOrigin("https://restaurant-web-client.vercel.app")
+// @CrossOrigin("https://restaurant-web-client.vercel.app")
 public interface RoleRepository extends JpaRepository<Role, Integer> {
     List<Role> findRoleByRoleName(RoleName roleName);
 }
