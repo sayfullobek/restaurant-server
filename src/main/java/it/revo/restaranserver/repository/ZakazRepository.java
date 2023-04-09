@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
 import java.util.UUID;
 
-@CrossOrigin("https://restaurant-web-client.vercel.app")
+// @CrossOrigin("https://restaurant-web-client.vercel.app")
 public interface ZakazRepository extends JpaRepository<Zakaz, UUID> {
 }
