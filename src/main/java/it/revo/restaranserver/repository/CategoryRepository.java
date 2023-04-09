@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.UUID;
 
-@CrossOrigin("https://restaurant-web-client.vercel.app")
+@CrossOrigin("https://restaurant-web-client.vercel.app/admin/category")
 @RepositoryRestResource(path = "category", collectionResourceRel = "list", excerptProjection = CustomCategory.class)
 public interface CategoryRepository extends JpaRepository<Category, UUID> {
 }
